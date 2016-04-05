@@ -1,0 +1,223 @@
+body {
+    padding-bottom: 40px;
+    color: #5a5a5a;
+}
+
+a{
+    outline: none !important;
+}
+
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.navbar-wrapper .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+.carousel-caption {
+    z-index: 10;
+}
+
+.carousel .item {
+    height: 500px;
+    background-color: #8C7358;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+#top-carousel .carousel-inner .item img{
+    position: relative;
+    top: 50px;
+    min-width: 900px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+#top-carousel .carousel-inner .item h2,
+#top-carousel .carousel-inner .item .text {
+    padding-bottom: 60px;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+.marketing {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: normal;
+}
+.marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.featurette-divider {
+    margin: 30px 0;
+    display: inline-block;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+
+.logo{
+    padding-right: 20px;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    font-weight: bold;
+}
+
+.navbar-right{
+    list-style: none;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    color: #C8C8C8;
+    font-weight: bold;
+}
+.navbar-right a,
+.navbar-right a:hover,
+.navbar-right a:visited{
+    color: #9d9d9d;
+    text-decoration: none;
+}
+
+.list-group-item{
+    background-color: #8C7358;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.panel-default .panel-heading{
+    background-color: #8C7358;
+    color: #FFFFFF;
+}
+
+.panel-default .panel-heading h4{
+    font-weight: bold;
+}
+
+#contacts .phones{
+    line-height: 30px;
+}
+
+#contacts .phones ul{
+    padding: 0;
+    margin: 0;
+}
+
+#contacts .phones li {
+    list-style-type: none;
+}
+
+#contacts .phones a,
+#contacts .phones a:hover,
+#contacts .phones a:visited{
+    color: #5A5A5A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.table-price-information tr td:first-child{
+    width: 80%;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+    .marketing {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left:  15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left:  0;
+    }
+
+
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+
+
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+   #top-carousel .carousel-control{
+        width:20%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    #top-carousel .carousel-control{
+        width:30%;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    #top-carousel .carousel-control{
+        width:40%;
+    }
+}
+
+
+
+
+
