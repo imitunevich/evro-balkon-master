@@ -7,6 +7,6 @@ app.get('/getAvailableExamples', function (req, res) {
   res.send('Hello World!');
 });
 
-app.listen(8080, function () {
+app.listen(80, function () {
   console.log('Evrobalkon-master application started on port 8080');
 });
