@@ -1,10 +1,14 @@
 var express = require('express');
+var fs = require('fs');
 var app = express();
 
 app.use(express.static('../evro-balkon-master'));
 
 app.get('/getAvailableExamples', function (req, res) {
-  res.send('Hello World!');
+  fs.readdir('images/examples', function(err, items) {
+    res.setHeader('content-type', 'application/json');
+    res.send(items);
+  });
 });
 
 app.listen(80, function () {
