@@ -13,7 +13,7 @@ app.get('/getAvailableExamples', function (req, res) {
 });
 
 app.post('/updateCode', function (req, res) {
-  shell.exec('git pull', {silent:false});
+  shell.exec('git pull', {silent:true});
   res.send();
 });
 
