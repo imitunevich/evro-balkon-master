@@ -11,7 +11,7 @@
         var img = $("<img/>");
         img.on({
             "load": function () {
-                img.attr("alt", "Фото балкона");
+                img.attr("alt", "Отделка балконов и лоджий");
                 loadCarouselImages(i);
                 addImageToCrousel(img);
             },
