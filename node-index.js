@@ -1,3 +1,4 @@
+var shell = require('shelljs');
 var express = require('express');
 var fs = require('fs');
 var app = express();
@@ -9,6 +10,11 @@ app.get('/getAvailableExamples', function (req, res) {
     res.setHeader('content-type', 'application/json');
     res.send(items);
   });
+});
+
+app.post('/updateCode', function (req, res) {
+  shell.exec('git pull', {silent:false});
+  res.send();
 });
 
 app.listen(80, function () {
