@@ -87,6 +87,11 @@ a{
     letter-spacing: -1px;
 }
 
+.lead{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
 
 .logo{
     padding-right: 20px;
@@ -115,6 +120,18 @@ a{
     background-color: #8C7358;
     font-weight: bold;
     color: #FFFFFF;
+    cursor: default;
+}
+
+.list-group-item a,
+.list-group-item a:visited{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.list-group-item a:hover{
+    color: #9d9d9d;
+    text-decoration: none;
 }
 
 .panel-default .panel-heading{
@@ -188,7 +205,7 @@ a{
     }
 
     .featurette-heading {
-        font-size: 50px;
+        font-size: 30px;
     }
 }
 
@@ -202,6 +219,10 @@ a{
 @media screen and (min-width: 1280px) {
    #top-carousel .carousel-control{
         width:20%;
+    }
+
+    #veranda .featurette-divider {
+        margin-top: 80px;
     }
 }
 
